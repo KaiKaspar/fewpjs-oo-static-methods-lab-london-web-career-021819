@@ -16,6 +16,6 @@ class Formatter {
           return Formatter.capitalize(word)
         }
     }).join(" ")
-    return output.charAt(0).toUpperCase() + output.slice(1);
+    return Formatter.capitalize(output)
   }
 }
